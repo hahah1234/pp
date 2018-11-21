@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" style="height:100%">
+<head>
+    <meta charset="UTF-8">
+    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Josefin+Slab|Poiret+One|Rajdhani" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <title>박현욱(Michael Park)</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/project.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="./js/intro.js"></script>
+</head>
+<body style="height:100%">
+    <header>
+        <div class="logo">
+            <a href="./index.html" >
+                Michael Park
+            </a>
+        </div>
+        
+        <div class="menu-wrap">
+            <div id="nav-icon3">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul id="header-menu" class="menu">
+                <li class="menu-item">
+                    <a href="./html/self-introduction.html">Self Introduction</a>
+                </li>
+                <li class="menu-item">
+                    <a href="./html/resume.html">Resume</a>
+                </li>
+                <li class="menu-item">
+                    <a href="./html/resume.html">
+                        Projects
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <script>
+            $("#nav-icon3").click(function(){
+                
+                var isActive = $("#header-menu").hasClass('active');
+                if(isActive){
+                    $("#header-menu").removeClass('active');
+                    $("#background-layer").hide();
+                }else{
+                    
+                    $("#header-menu").addClass('active');
+                    $("#background-layer").show();
+                }
+            })
+        </script>
+    </header>
+    <main >
+        <div style="display:flex;flex:1;">
+            <div class="pro-wrap">
+                <ul class="pro-title-list">
+                    
+                    <li class="pro-item">
+                        <a href="./html/funko.html" data-id="funko">Funtastic Korea</a>
+                    </li>
+                    <li class="pro-item">
+                        <a href="./html/gori.html" data-id="gori">Gori Web</a>
+                    </li>
+                    <li class="pro-item">
+                        <a href="./html/admigo.html" data-id="admigo">Admigo</a>
+                    </li>
+                    <li class="pro-item">
+                        <a href="./html/beyondesk.html" data-id="beyondesk">Beyondesk</a>
+                    </li>
+                    <li class="pro-item">
+                        <a href="./html/sdream.html" data-id="samsung">Sdream<span style="font-size:14px;">(삼성 꿈 장학재단)</span></a>
+                    </li>
+                    <li class="pro-item">
+                        <a href="./html/avedion.html" data-id="avedion">Avedion</a>
+                    </li>
+                    <li class="pro-item">
+                        <a href="./html/kifrs-viewer.html"  data-id="kifrs">KIFRS Viewer</a>
+                    </li>
+                    <li class="pro-item" style="display:none;">
+                        <a href="./html/vegemap.html"  data-id="Vegemap">Vegemap</a>
+                    </li>
+                    <li class="pro-item">
+                        <a href="./html/nintendoprice.html" data-id="nintendo">Nintendo Price</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="pro-img-wrap">
+                <div class="pro-list" >
+                    <a class="pro-img-item active" href="./html/funko.html" data-id="funko" >
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/responsive.png');"></div>
+                            <div class="pro-img-title-wrap"  style="background-color:rgb(81,190,150)">
+                                <div class="pro-img-title">
+                                    Funtastic Korea
+                                </div>
+                                <div class="pro-img-intro">- 외국인의 한국여행을 위한 예약 사이트</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:rgb(81,190,150)">
+
+                        </div>
+                    </a>
+                    <a  class="pro-img-item" href="./html/gori.html" data-id="gori">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/funko_stat.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:rgb(81, 125, 190)">
+                                <div class="pro-img-title">
+                                    Gori Web
+                                </div>
+                                <div class="pro-img-intro">- 펀타스틱 코리아의 어드민</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:rgb(81, 125, 190)">
+
+                        </div>
+                    </a>
+                    <a class="pro-img-item"  href="./html/admigo.html" data-id="admigo">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/Control Panel.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:rgb(54,64,83)">
+                                <div class="pro-img-title">
+                                    Admigo
+                                </div>
+                                <div class="pro-img-intro">- 코워킹 스페이스 관리를 위한 사이트</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:rgb(54,64,83)">
+
+                        </div>
+                    </a>
+                    <a class="pro-img-item"  href="./html/beyondesk.html" data-id="beyondesk">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/reservation.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:rgb(54,64,83)">
+                                <div class="pro-img-title">
+                                    Beyondesk
+                                </div>
+                                <div class="pro-img-intro">- 코워킹 스페이스 회원들을 위한 사이트</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:rgb(54,64,83)">
+
+                        </div>
+                    </a>
+                    <a class="pro-img-item"  href="./html/sdream.html" data-id="samsung">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/accounting.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:#e67a2d; background-size:100% auto">
+                                <div class="pro-img-title">
+                                    삼성 꿈 장학재단
+                                </div>
+                                <div class="pro-img-intro">- 삼성 꿈 장학재단 차세대 프로젝트</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:#e67a2d">
+
+                        </div>
+                    </a>
+                    <a class="pro-img-item"  href="./html/kifrs-viewer.html" data-id="kifrs">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/kifrs-viewer-content.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:#4A90E2; background-size:100% auto">
+                                <div class="pro-img-title">
+                                    KIFRS Viewer
+                                </div>
+                                <div class="pro-img-intro">- 회계사들을 위한 한국 채택 국제 회계기준 검색 사이트</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:#4A90E2">
+
+                        </div>
+                    </a>
+                    
+                    <a class="pro-img-item"  href="./html/avedion.html" data-id="avedion">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/avedion.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:rgb(48,134,201); background-size:100% auto">
+                                <div class="pro-img-title">
+                                    Avedion
+                                </div>
+                                <div class="pro-img-intro">- 유학생들을 위한 커뮤니티 앱</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:rgb(48,134,201)">
+
+                        </div>
+                    </a>
+                    <a class="pro-img-item"  href="./html/nintendoprice.html" data-id="nintendo">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/nintendoprice-main.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:#E60312; background-size:100% auto">
+                                <div class="pro-img-title">
+                                    Nintendo Price
+                                </div>
+                                <div class="pro-img-intro">- 각국 닌텐도 eshop 가격 비교 및 최저가 검색 사이트</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:#E60312">
+
+                        </div>
+                    </a>
+                    <div class="pro-img-item"></div>
+                    <a class="pro-img-item"  href="./html/gori.html" data-id="vegemap" style="display:none;">
+                        <div class="pro-img-content">
+                            <div class="pro-img" style="background-image:url('./resources/kifrs-viewer-content.png');"></div>
+                            <div class="pro-img-title-wrap" style="background-color:#7ED321; background-size:100% auto">
+                                <div class="pro-img-title">
+                                    Vegemap<span style="font-size:14px;padding-left:5px;"> (진행중)</span>
+                                </div>
+                                <div class="pro-img-intro">- 채식주의자들을 위한 채식 식당 지도 앱</div>
+                            </div>
+                        </div>
+                        <div class="pro-img-item-background" style="background-color:#7ED321">
+
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <div id="background-layer">
+
+    </div>
+    
+</body>
+</html>
