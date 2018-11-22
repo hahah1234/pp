@@ -1,0 +1,46 @@
+
+body{
+    padding-left: 15px;
+    padding-right:15px;
+}
+.article-content-wrap{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    margin-top:60px;
+}
+
+.article-content{
+    margin-top:30px;
+}
+.article-title{
+    font-size:25px;
+}
+.article-sub-title{
+    margin-top:15px;
+    font-size:18px;
+}
+.article-section{
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-img-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    height:300px;
+}
+.article-img{
+    background: tomato;
+    width:100%;
+    height:100%;
+    
+}
+.article-text{
+    margin-top:15px;
+    
+}

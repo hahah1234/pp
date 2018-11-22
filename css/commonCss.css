@@ -1,7 +1,13 @@
 body{
     background-color: #ffffff;
 }
-
+.top-nav-bar-wrap{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    
+}
 .top-nav-bar{
     height:60px; 
     width:100%;
