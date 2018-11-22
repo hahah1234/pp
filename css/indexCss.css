@@ -18,15 +18,15 @@
     cursor: pointer;
 }
 .content-wrap .c > div:nth-child(1){
-    background-image: url("http://www.city.kr/files/attach/images/238/887/202/009/09d75704c621abc12d25663dd306c795.jpg");
+    background-image: url("../img/k2eider.png");
     background-size: cover;
 }
 .content-wrap .c > div:nth-child(2){
-    background-image: url("http://www.city.kr/files/attach/images/238/887/202/009/09d75704c621abc12d25663dd306c795.jpg");
+    background-image: url("../img/funko_main.png");
     background-size: cover;
 }
 .content-wrap .c > div:nth-child(3){
-    background-image: url("http://www.city.kr/files/attach/images/238/887/202/009/09d75704c621abc12d25663dd306c795.jpg");
+    background-image: url("../img/gori.png");
     background-size: cover;
 }
 .content-wrap .c > div:nth-child(4){
