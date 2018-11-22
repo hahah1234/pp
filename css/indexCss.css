@@ -27,14 +27,18 @@
     background-size: cover;
 }
 .content-wrap .c > div:nth-child(3){
-    background-image: url("../img/visner_main.png");
+    background-image: url("../img/admigo_main.png");
     background-size: cover;
 }
 .content-wrap .c > div:nth-child(4){
-    background-image: url("../img/madjWeb.png");
+    background-image: url("../img/visner_main.png");
     background-size: cover;
 }
 .content-wrap .c > div:nth-child(5){
+    background-image: url("../img/madjWeb.png");
+    background-size: cover;
+}
+.content-wrap .c > div:nth-child(6){
     background-image: url("http://www.city.kr/files/attach/images/238/887/202/009/09d75704c621abc12d25663dd306c795.jpg");
     background-size: cover;
 }
