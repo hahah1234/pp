@@ -8,11 +8,11 @@ $(document).ready(function(){
             $(location).attr('href', "./funko.html");
         }else if($(this).index() == 2){
             $(location).attr('href', "./admigo.html");
-        }else if($(this).index() == 2){
-            $(location).attr('href', "./beyondesk.html");
         }else if($(this).index() == 3){
-            $(location).attr('href', "./madjWeb.html");
+            $(location).attr('href', "./beyondesk.html");
         }else if($(this).index() == 4){
+            $(location).attr('href', "./madjWeb.html");
+        }else if($(this).index() == 5){
             $(location).attr('href', "./sdream.html");
         }
     });
