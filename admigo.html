@@ -52,49 +52,55 @@
             </div>
 
         </div>
-        <div class="article-content-wrap">
-            <div class="article-content">
-                <div class="article-title">admigo</div>
-                <div class="article-sub-title">사용언어: spring, java, my-batis, mariaDb, linux, javascript, jquery, css, html, jsp, bootstrap  </div>
-                <div class="article-sub-title">
-                    admigo는 이전 회사에서 개발언어를 java에서 php로 변경한 이유로 퇴사한 뒤 같이 개발하던 동료들과 피치트리라는 코워킹스페이스와 협업하여 만든 코워킹스페이스 관리시스템입니다.
-                    처음에 4명이 시작하여  개발계획을 짰으나 저와 처음 기획을 가지고온 개발자만 남게되어 2명이서 개발을 진행하게되었습니다.
-                    개발을 하기 전에 이전 회사에서 카페24의 단독서버 호스팅 사용으로 매우 불편한 운영을 했던것을 생각하여 aws service를 사용하면 더 편리한 운영을 할수있어서 공부하며 aws의 서비스를 적용했고
-                    초기의 개발환경세팅을 진행하여 팀원들에게 배포하였습니다. 
-                    시작단계에서는 디자인을 materializeCss를 적용하여 개발을 진행하여 완성하여 운영중이 었으나 디자인의 미흡으로 웹디자인 학원을 다니며 프로젝트에 디자인을 적용하여 2차 개발을 진행하여 최종 완성했습니다.
-                    1차 개발에는 materializeCss를 의존하여 개발이 진행되어 2차 개발때 어려움이 있었지만 기존 css프레임워크를 전부 제거하고 자체적으로 css를 개발하여 적용하였습니다.
-                    직접 디자인하고 백엔드, 프론트엔드 작업까지 진행하여 힘들지만 즐겁게 개발했고 많은걸 배울수 있던 시간이었습니다. 모든 페이지는 반응형으로 작업했습니다.
+        <div class="container">
+            <div class="article-content-wrap">
+                <div class="article-content">
+                    <div class="article-title">admigo</div>
+                    <div class="article-sub-title">사용언어: spring, java, my-batis, mariaDb, linux, javascript, jquery, css, html, jsp, bootstrap  </div>
+                    <div class="article-sub-title">
+                        admigo는 이전 회사에서 개발언어를 java에서 php로 변경한 이유로 퇴사한 뒤 같이 개발하던 동료들과 피치트리라는 코워킹스페이스와 협업하여 만든 코워킹스페이스 관리시스템입니다.
+                        처음에 4명이 시작하여  개발계획을 짰으나 저와 처음 기획을 가지고온 개발자만 남게되어 2명이서 개발을 진행하게되었습니다.
+                        개발을 하기 전에 이전 회사에서 카페24의 단독서버 호스팅 사용으로 매우 불편한 운영을 했던것을 생각하여 aws service를 사용하면 더 편리한 운영을 할수있어서 공부하며 aws의 서비스를 적용했고
+                        초기의 개발환경세팅을 진행하여 팀원들에게 배포하였습니다. 
+                        시작단계에서는 디자인을 materializeCss를 적용하여 개발을 진행하여 완성하여 운영중이 었으나 디자인의 미흡으로 웹디자인 학원을 다니며 프로젝트에 디자인을 적용하여 2차 개발을 진행하여 최종 완성했습니다.
+                        1차 개발에는 materializeCss를 의존하여 개발이 진행되어 2차 개발때 어려움이 있었지만 기존 css프레임워크를 전부 제거하고 자체적으로 css를 개발하여 적용하였습니다.
+                        직접 디자인하고 백엔드, 프론트엔드 작업까지 진행하여 힘들지만 즐겁게 개발했고 많은걸 배울수 있던 시간이었습니다. 모든 페이지는 반응형으로 작업했습니다.
+                        
+                    </div>
+                    <div class="article-section-wrap">
+                        <div class="article-section">
+                            <div class="article-img-wrap">
+                                <img class="article-img" src="./img/admigo_addFac.png"></img>
+                            </div>
+                            <div class="article-text">
+                                    회의실같은 장소를 등록하기위한 코드입니다.
+                                    이미지와 이름을 ajax를 이용하여 서비스단으로 넘깁니다.
+                            </div>
+                        </div>   
+        
+                        <div class="article-section">
+                            <div class="article-img-wrap">
+                                <img class="article-img" src="./img/admigo_upImg.png"></img>
+                            </div>
+                            <div class="article-text">
+                                이미지를 업로드하는 서비스단입니다.
+                                이미지는 s3에 업로드하여 저장하고 DB에 경로와 이름을 저장합니다.
+                            </div>
+                        </div>   
+        
+                        <div class="article-section">
+                            <div class="article-img-wrap">
+                                <img class="article-img" src="./img/admigo_s3up.png"></img>
+                            </div>
+                            <div class="article-text">
+                                s3업로드하기위해 유틸로 빼두었습니다.
+                            </div>
+                        </div>
+                    </div>
                     
-                </div>
-                <div class="article-section">
-                    <div class="article-img-wrap">
-                        <img class="article-img" src="./img/admigo_addFac.png"></img>
-                    </div>
-                    <div class="article-text">
-                            회의실같은 장소를 등록하기위한 코드입니다.
-                            이미지와 이름을 ajax를 이용하여 서비스단으로 넘깁니다.
-                    </div>
-                </div>   
-
-                <div class="article-section">
-                    <div class="article-img-wrap">
-                        <img class="article-img" src="./img/admigo_upImg.png"></img>
-                    </div>
-                    <div class="article-text">
-                        이미지를 업로드하는 서비스단입니다.
-                        이미지는 s3에 업로드하여 저장하고 DB에 경로와 이름을 저장합니다.
-                    </div>
-                </div>   
-
-                <div class="article-section">
-                    <div class="article-img-wrap">
-                        <img class="article-img" src="./img/admigo_s3up.png"></img>
-                    </div>
-                    <div class="article-text">
-                        s3업로드하기위해 유틸로 빼두었습니다.
-                    </div>
                 </div>
             </div>
         </div>
+        
     </body>
 </html>
