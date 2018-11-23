@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
-    $(window).bind("click touchstart tap",function(){
-        console.log($(event.target).attr("class"));
 
+    
+    $(window).bind("click touchstart tap",function(e){
+        console.log($(e.target).attr("class"));
         console.log($(".backstretch img").attr("src"));
-        if($(event.target).attr("class") == undefined || $(event.target).attr("class")=="" ||$(event.target).attr("class") != "ham-box" ){
+        if($(event.target).attr("class") ==undefined || $(event.target).attr("class")==""){
             var imgPath = $(".backstretch img").attr("src");
-
             if(imgPath.indexOf("k2eider") > -1){
                 $(location).attr('href', "./k2eider.html");
             }else if(imgPath.indexOf("funko") > -1){
@@ -20,6 +20,8 @@ $(document).ready(function(){
             }else if(imgPath.indexOf("sdream") > -1){
                 $(location).attr('href', "./sdream.html");
             }
+        }else{
+            return false;
         }
     });
 
