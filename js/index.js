@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $(window).on("click,touchstart",function(){
+    $(window).on("click,touchstart,tap",function(){
         console.log($(".backstretch img").attr("src"));
         var imgPath = $(".backstretch img").attr("src");
 
