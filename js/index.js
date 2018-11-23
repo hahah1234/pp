@@ -4,8 +4,7 @@ $(document).ready(function(){
         console.log($(event.target).attr("class"));
 
         console.log($(".backstretch img").attr("src"));
-        if($(event.target).attr("class") !="undefined"){
-
+        if($(event.target).attr("class") == undefined){
         
             var imgPath = $(".backstretch img").attr("src");
 
