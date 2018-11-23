@@ -4,7 +4,7 @@ $(document).ready(function(){
         console.log($(event.target).attr("class"));
 
         console.log($(".backstretch img").attr("src"));
-        if($(event.target).attr("class") == undefined || $(event.target).attr("class")==""){
+        if($(event.target).attr("class") == undefined || $(event.target).attr("class")=="" ||$(event.target).attr("class") != "ham-box" ){
             var imgPath = $(".backstretch img").attr("src");
 
             if(imgPath.indexOf("k2eider") > -1){
