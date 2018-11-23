@@ -1,7 +1,10 @@
 $(document).ready(function(){
 
     $(window).bind("click touchstart tap",function(){
+        console.log($(event.target).attr("class"));
+
         console.log($(".backstretch img").attr("src"));
+        if($(event.target).attr("class") !="undefined");
         var imgPath = $(".backstretch img").attr("src");
 
         if(imgPath.indexOf("k2eider") > -1){
