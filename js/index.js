@@ -20,8 +20,6 @@ $(document).ready(function(){
             }else if(imgPath.indexOf("sdream") > -1){
                 $(location).attr('href', "./sdream.html");
             }
-        }else{
-            return false;
         }
     });
 
