@@ -3,9 +3,6 @@ $(document).ready(function(){
 
     
     $(window).bind("click touchstart tap",function(e){
-        console.log($(e.target).attr("class"));
-        console.log($(".backstretch img").attr("src"));
-        console.log($("e.target").prop("tagName"));
         if($(event.target).attr("class") ==undefined || $(event.target).attr("class")==""){
             var imgPath = $(".backstretch img").attr("src");
             if(imgPath.indexOf("k2eider") > -1){
