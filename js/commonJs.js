@@ -15,7 +15,18 @@ $(document).ready(function(){
         }
     });
 
-    
+    $("#nav-icon3").click(function(){
+        
+        var isActive = $("#header-menu").hasClass('active');
+        if(isActive){
+            $("#header-menu").removeClass('active');
+            $("#background-layer").hide();
+        }else{
+            
+            $("#header-menu").addClass('active');
+            $("#background-layer").show();
+        }
+    })
 
 
 

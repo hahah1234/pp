@@ -25,7 +25,7 @@ $(document).ready(function(){
 
     $(function(){
         $.backstretch(["./img/k2eider.png","./img/funko_main.png","./img/admigo_main.png","./img/visner_main.png","./img/madjWeb.png","./img/sdream_main.png"], 
-            {duration: 3000, fade: 500});
+            {duration: 2500, fade: 500});
     });
 
 
