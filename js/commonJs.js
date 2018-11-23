@@ -15,7 +15,7 @@ $(document).ready(function(){
         }
     });
 
-    $("#nav-icon3").click(function(){
+    $(".ham-box").click(function(){
         
         var isActive = $("#header-menu").hasClass('active');
         if(isActive){
