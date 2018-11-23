@@ -1,19 +1,28 @@
 $(document).ready(function(){
 
-    $(".content-wrap .c > div").on("click",function(){
+    $(window).on("click",function(){
+        console.log($(".backstretch img").attr("src"));
+        var imgPath = $(".backstretch img").attr("src");
 
-        if($(this).index() == 0){
+        if(imgPath.indexOf("k2eider") > -1){
             $(location).attr('href', "./k2eider.html");
-        }else if($(this).index() == 1){
+        }else if(imgPath.indexOf("funko") > -1){
             $(location).attr('href', "./funko.html");
-        }else if($(this).index() == 2){
+        }else if(imgPath.indexOf("admigo") > -1){
             $(location).attr('href', "./admigo.html");
-        }else if($(this).index() == 3){
+        }else if(imgPath.indexOf("beyondesk") > -1){
             $(location).attr('href', "./beyondesk.html");
-        }else if($(this).index() == 4){
+        }else if(imgPath.indexOf("madjWeb") > -1){
             $(location).attr('href', "./madjWeb.html");
-        }else if($(this).index() == 5){
+        }else if(imgPath.indexOf("sdream") > -1){
             $(location).attr('href', "./sdream.html");
         }
     });
+
+    $(function(){
+        $.backstretch(["./img/k2eider.png","./img/funko_main.png","./img/admigo_main.png","./img/visner_main.png","./img/madjWeb.png","./img/sdream_main.png"], 
+            {duration: 3000, fade: 500});
+    });
+
+
 });
