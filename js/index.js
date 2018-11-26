@@ -12,8 +12,7 @@ $(document).ready(function(){
           } catch(err) { /* Do nothing */ }
         }
     };
-
-
+    
     var wwWidth =$(window).innerWidth();
     if(wwWidth >=1024){
         backImg(wwWidth);
@@ -27,8 +26,6 @@ $(document).ready(function(){
             global.destroy();
         }
     });
-
-
 
     if(wwWidth >=1024){
         $(window).bind("click touchstart tap",function(e){
@@ -51,6 +48,22 @@ $(document).ready(function(){
         });
     }
     
+    $(".article-section img").click(function(){
+        var imgPath = $(this).attr("src");
+        if(imgPath.indexOf("k2eider") > -1){
+            $(location).attr('href', "./k2eider.html");
+        }else if(imgPath.indexOf("funko") > -1){
+            $(location).attr('href', "./funko.html");
+        }else if(imgPath.indexOf("admigo") > -1){
+            $(location).attr('href', "./admigo.html");
+        }else if(imgPath.indexOf("beyondesk") > -1){
+            $(location).attr('href', "./beyondesk.html");
+        }else if(imgPath.indexOf("madjWeb") > -1){
+            $(location).attr('href', "./madjWeb.html");
+        }else if(imgPath.indexOf("sdream") > -1){
+            $(location).attr('href', "./sdream.html");
+        }
+    });
     // $(function(){
     //     console.log(wwWidth);
     //     // var wWidth = window.innerWidth;
@@ -59,11 +72,6 @@ $(document).ready(function(){
     //             {duration: 2500, fade: 500});
     //     }
     // });
-
-
-
-
-
 });
 
 function backImg (wwWidth){
