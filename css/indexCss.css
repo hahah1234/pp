@@ -1,4 +1,31 @@
-.content-wrap{
+.container{
+    margin-top:30px;
+    margin-bottom:30px;
+    padding:0 15px 0 15px;
+}
+.article-section{
+    background-color: #eee;
+    border: 1px solid #e2dede;
+}
+.article-text{
+    padding:0 0 15px 15px;
+    
+}
+
+@media screen and (min-width:640px){
+}
+@media screen and (min-width:768px){
+    
+}
+@media screen and (min-width:1024px){
+    .container{
+        display: none;
+    }
+}
+
+
+
+/* .content-wrap{
 
     display:flex;
     flex-wrap: wrap;
@@ -18,7 +45,7 @@
     background-repeat:no-repeat;
     cursor: pointer;
 }
-/* .content-wrap .c > div:nth-child(1){
+.content-wrap .c > div:nth-child(1){
     background-image: url("../img/k2eider.png");
     background-size: contain;
 }
@@ -39,6 +66,6 @@
     background-size: cover;
 }
 .content-wrap .c > div:nth-child(6){
-    background-image: url("http://www.city.kr/files/attach/images/238/887/202/009/09d75704c621abc12d25663dd306c795.jpg");
+    background-image: url("../img/sdream_main.png");
     background-size: cover;
 } */

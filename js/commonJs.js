@@ -28,6 +28,18 @@ $(document).ready(function(){
         }
     })
 
-
+    $(function(){
+        $(".menu-box-nm li").hover(function(){
+          $('ul:first',this).show();
+        }, function(){
+          $('ul:first',this).hide();
+        });
+        $(".menu-box-nm>li:has(ul)>a").each( function() {
+          $(this).html( $(this).html()+' &or;' );
+        });
+        $(".menu-box-nm ul li:has(ul)")
+          .find("a:first")
+          .append("<p style='float:right;margin:-3px'>&#9656;</p>");
+      });
 
 });
