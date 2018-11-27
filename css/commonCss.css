@@ -26,6 +26,7 @@ body{
     flex-direction: row; 
     align-items: center; 
 }
+
 .logo-box{
     width:60%;
     padding-left:15px;
