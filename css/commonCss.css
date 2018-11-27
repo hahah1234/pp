@@ -1,5 +1,9 @@
+
+@import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+
 body{
     background-color: #ffffff;
+    font-family: 'Noto Sans Korean', sans-serif;
 }
 .top-nav-bar-wrap{
     position:fixed;
