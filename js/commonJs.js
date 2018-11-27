@@ -35,7 +35,7 @@ $(document).ready(function(){
           $('ul:first',this).hide();
         });
         $(".menu-box-nm>li:has(ul)>a").each( function() {
-          $(this).html( $(this).html()+' v' );
+          $(this).html( $(this).html()+" <i class='fa fa-angle-down'></i>" );
         });
         $(".menu-box-nm ul li:has(ul)")
           .find("a:first")

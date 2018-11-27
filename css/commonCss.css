@@ -1,5 +1,6 @@
 
 @import url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/stylesheets/NotoSansKR-Hestia.css);
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 body{
     background-color: #ffffff;
@@ -190,7 +191,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        padding-right:15px;
+        padding-right:30px;
     }
     .menu-box-nm a{
         color:#ffffff;
