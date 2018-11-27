@@ -30,6 +30,11 @@ body{
     width:60%;
     padding-left:15px;
 }
+.logo-box a{
+    font-weight: 600;
+    color:#000;
+
+}
 .menu-box-m{
     width:40%; 
     height: 100%;
@@ -62,7 +67,8 @@ body{
     display: none;
     top:60px;
     right: 0px;
-    width:40%;
+    width:45%;
+    max-width:170px;
     height: 100%;
     z-index:11;
 }
@@ -78,6 +84,15 @@ body{
     font-size:20px;
     color:#222224;
     cursor: pointer;
+}
+.menu-box-slide-sub{
+    display: flex;
+    flex-direction: column;
+    padding:0 0 0 20px;
+}
+.menu-box-slide-sub a{
+    font-size:16px;
+    color:#777;
 }
 .menu-box-nm{
     display: none; 
