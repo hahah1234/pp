@@ -108,6 +108,10 @@ body{
     font-size:18px;
     line-height: 25px;
 }
+.article-content .article-sub-title:nth-child(3){
+    font-size:16px;
+    color:#777;
+}
 .article-section-wrap{
     margin-top:30px;
 } 
@@ -190,7 +194,7 @@ body{
     }
     .menu-box-nm a{
         color:#ffffff;
-        font-size:24px;
+        font-size:20px;
         cursor: pointer;
     }
     .article-section-wrap{
